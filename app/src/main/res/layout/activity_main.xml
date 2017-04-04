@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.my.kaoshia.MainActivity">
+
+    <com.my.kaoshia.CustomView
+        android:id="@+id/customview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+         />
+
+</LinearLayout>
